@@ -8,6 +8,9 @@ Simmer and Sage is a generative AI system that finetunes a compact language mode
 
 Many people run into Pakistani and Indian dishes they don't know how to make, and most general-purpose recipe tools aren't trained on authentic South Asian ingredients, techniques, or spice profiles. Simmer and Sage solves this by finetuning a compact language model exclusively on curated Pakistani and Indian recipe data, then serving it through a clean web interface.
 
+<img width="1740" height="924" alt="pic1" src="https://github.com/user-attachments/assets/c168d900-7c1f-491a-8905-1ae752cfed7d" />
+
+
 ## Features
 
 - **Text-to-recipe generation** — enter a dish name, get a full recipe back
@@ -27,6 +30,8 @@ Many people run into Pakistani and Indian dishes they don't know how to make, an
 2. The finetuned adapter is loaded and merged with the base LFM2 model
 3. Inference runs on GPU, generating a JSON-formatted recipe (dish name, ingredients, directions)
 4. The structured JSON output is directly parseable — no post-processing or extraction logic required
+<img width="1543" height="899" alt="pic2" src="https://github.com/user-attachments/assets/b6762402-c0be-4362-b05c-bb0c942d2898" />
+
 
 ## Dataset & Training Approach
 
